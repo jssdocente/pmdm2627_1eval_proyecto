@@ -74,7 +74,7 @@ com.pm2627.p1ev.memory
 | :--- | :--- |
 | `juego/Nivel.kt` | `enum class Nivel` con el rango y el máximo de intentos de cada nivel |
 | `ui/partida/PartidaUiState.kt` | `data class PartidaUiState`: todo lo que pinta la pantalla de partida (intentos, pista, segundos, si ha acabado…). Es inmutable |
-| `ui/partida/PartidaViewModel.kt` | Las **reglas**: comprueba el número, calcula la pista, cuenta intentos y controla el temporizador con un `Job` |
+| `ui/partida/PartidaViewModel.kt` | La **lógica del juego**: comprueba el número, calcula la pista, cuenta intentos y controla el temporizador con un `Job` |
 | `ui/partida/PartidaScreen.kt` | Solo **pinta** el `PartidaUiState` y envía eventos (`onNumeroEnviado`). No decide nada |
 | `ui/inicio/InicioScreen.kt` | Lista los tres niveles y avisa de cuál se ha elegido |
 | `ui/final/FinalScreen.kt` | Muestra los intentos y el tiempo que recibe como argumentos |

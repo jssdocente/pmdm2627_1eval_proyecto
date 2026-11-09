@@ -79,7 +79,7 @@ com.pm2627.p1ev.memory
 ### 5.2. Ficheros importantes
 
 <!--
-  Una fila por cada fichero relevante: dónde está el estado, dónde están las reglas
+  Una fila por cada fichero relevante: dónde está el estado, dónde está la lógica del juego
   del juego, dónde está la navegación, dónde está cada pantalla, dónde están los tests.
 -->
 
