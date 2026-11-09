@@ -1,0 +1,3 @@
+# Los scripts de Gradle conservan sus finales de línea: el .bat exige CRLF y el script de shell exige LF
+*.bat -text
+gradlew text eol=lf
