@@ -7,12 +7,16 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import com.pm2627.p1ev.memory.ui.tablero.TableroScreen
 import com.pm2627.p1ev.memory.ui.theme.MemoryTheme
 
+/**
+ * LA ACTIVITY: solo arranca la app.
+ *
+ * De momento muestra directamente la pantalla del tablero. Cuando haya tres pantallas
+ * (apartado 3.3 de la guía), aquí se pintará MemoryApp, con la pila de navegación.
+ */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,28 +24,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             MemoryTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    TableroScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hola $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    MemoryTheme {
-        Greeting("Android")
     }
 }
