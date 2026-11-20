@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Anverso de carta: estrella. Dibujo propio (sin derechos de terceros). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FDD835"
+        android:pathData="M12.00,2.60L14.47,9.20L21.51,9.51L15.99,13.90L17.88,20.69L12.00,16.80L6.12,20.69L8.01,13.90L2.49,9.51L9.53,9.20Z" />
+</vector>

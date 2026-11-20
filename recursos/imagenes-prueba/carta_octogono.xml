@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Anverso de carta: octogono. Dibujo propio (sin derechos de terceros). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M15.83,2.76L21.24,8.17L21.24,15.83L15.83,21.24L8.17,21.24L2.76,15.83L2.76,8.17L8.17,2.76Z" />
+</vector>

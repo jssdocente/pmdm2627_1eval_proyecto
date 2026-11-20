@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Anverso de carta: triangulo. Dibujo propio (sin derechos de terceros). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M12.00,2.50L22.00,20.50L2.00,20.50Z" />
+</vector>

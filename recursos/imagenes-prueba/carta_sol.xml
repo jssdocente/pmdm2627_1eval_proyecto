@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Anverso de carta: sol. Dibujo propio (sin derechos de terceros). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M12.00,2.00L14.10,6.92L19.07,4.93L17.08,9.90L22.00,12.00L17.08,14.10L19.07,19.07L14.10,17.08L12.00,22.00L9.90,17.08L4.93,19.07L6.92,14.10L2.00,12.00L6.92,9.90L4.93,4.93L9.90,6.92Z" />
+</vector>
